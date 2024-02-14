@@ -35,3 +35,27 @@ vice versa.
 
 This Java program declares two arrays named 'even' and 'odd'. It prompts the user to enter the number of elements, then accepts numbers from the user and moves them to respective arrays depending on whether they are even or odd. Finally, it prints out the contents of the 'even' and 'odd' arrays.
 
+
+# Assignmet-3:
+
+# Student Management System
+
+The Student Management System is a Java application designed to manage student records efficiently. It provides functionalities for adding, displaying, searching, updating, and deleting student records.
+
+## Features
+
+- **Add Student:** Allows users to add a new student to the system by providing their PRN (Permanent Registration Number), name, date of birth, and marks.
+- **Display Students:** Displays all the student records currently stored in the system.
+- **Search Student by PRN:** Enables users to search for a student by their PRN.
+- **Search Student by Name:** Enables users to search for a student by their name.
+- **Update Student:** Allows users to update the details of a student, such as their name, date of birth, and marks.
+- **Delete Student:** Allows users to delete a student record from the system.
+
+## How to Use
+
+1. **Run the Program:** Execute the `Main` class to start the Student Management System.
+2. **Navigate the Menu:** Follow the on-screen menu prompts to perform various operations.
+3. **Input Data:** Provide the required information, such as PRN, name, date of birth, and marks, when adding or updating student records.
+
+
+
