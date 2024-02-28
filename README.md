@@ -123,7 +123,10 @@ To use the program, follow these steps:
 
 ## Functionality:
 
-### Circle: Calculates the area using the formula π * radius^2 and the perimeter using the formula 2 * π * radius.
-### Triangle: Calculates the area using Heron's formula and the perimeter by summing up the lengths of its three sides.
-### Rectangle: Calculates the area by multiplying the lengths of its two sides and the perimeter by summing up twice the lengths of its two sides.
+### Circle: 
+Calculates the area using the formula π * radius^2 and the perimeter using the formula 2 * π * radius.
+### Triangle: 
+Calculates the area using Heron's formula and the perimeter by summing up the lengths of its three sides.
+### Rectangle: 
+Calculates the area by multiplying the lengths of its two sides and the perimeter by summing up twice the lengths of its two sides.
 
