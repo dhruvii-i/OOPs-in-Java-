@@ -85,3 +85,45 @@ The GrowableIntStack class implements the IntStack interface to create a growabl
 
 The Main class contains the main method, which demonstrates the usage of both FixedIntStack and GrowableIntStack. It creates instances of these classes and performs various operations such as pushing, popping, and peeking elements from the stacks.
 
+# Assignment-5:
+Part 1: Implement the generic Shapes class as an abstract class so that we can extend concrete classes like circle, triangle, rectangle class from it. The details of shape and other classes is given in diagram. Write a concrete subclass Rectangle, Circle and Square. In another class, write a main method to define a Rectangle and a Triangle
+
+
+Part 2: Program to implement multilevel inheritance. Create class Account with cust_name and account_number as instance variables and write getdata and putData() methods which will take customer name and account number and will display the same using putData method. Create another class savingAcc that extends class Account with min_balance and sav_bal as instance variables and getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods. Create another class accdetail with deposits and withdrawal as instance variables, getdata() and putData() method to take instance variables as well as call base class methods in respective getData and putData methods.Create separate class accountInfo which will create object of accdetail and its respective methods to get and display information.
+
+## Assignment 5: Part 1 - Shape Calculator
+
+## Overview:
+
+This repository contains a Java program that implements a simple shape calculator. The program defines three classes: Circle, Triangle, and Rectangle, each representing a different geometric shape. Additionally, there is an interface called Shape which outlines the methods required for shape calculation: calculateArea() and calculatePerimeter().
+
+## Files Included:
+
+### Circle.java:
+Defines the Circle class, which calculates the area and perimeter of a circle based on its radius.
+### Triangle.java:
+Defines the Triangle class, which calculates the area and perimeter of a triangle based on its three sides.
+### Rectangle.java:
+Defines the Rectangle class, which calculates the area and perimeter of a rectangle based on its two sides.
+### Shape.java:
+Defines the Shape interface, which outlines the methods for calculating area and perimeter.
+### Assignment5_Part1.java:
+Contains the main method where instances of Circle, Triangle, and Rectangle are created and their properties are displayed.
+
+
+
+
+## Usage:
+
+To use the program, follow these steps:
+
+1. Compile all Java files using a Java compiler.
+2. Run the Assignment5_Part1 class.
+3. The program will display the area and perimeter of a circle, triangle, and rectangle.
+
+## Functionality:
+
+### Circle: Calculates the area using the formula π * radius^2 and the perimeter using the formula 2 * π * radius.
+### Triangle: Calculates the area using Heron's formula and the perimeter by summing up the lengths of its three sides.
+### Rectangle: Calculates the area by multiplying the lengths of its two sides and the perimeter by summing up twice the lengths of its two sides.
+
