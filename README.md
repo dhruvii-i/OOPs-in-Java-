@@ -130,3 +130,37 @@ Calculates the area using Heron's formula and the perimeter by summing up the le
 ### Rectangle: 
 Calculates the area by multiplying the lengths of its two sides and the perimeter by summing up twice the lengths of its two sides.
 
+## Assignment 5: Part 2 - Payroll Management System
+
+## Overview:
+
+This repository contains a Java program that simulates a payroll management system. The program defines two classes: NormalEmployee and BonusEmployee, each representing a different type of employee. Additionally, there is a PaySlip class that generates pay slips for employees based on their details and earnings.
+
+## Files Included:
+
+### Employee.java: 
+Defines the abstract class Employee, which contains attributes and methods common to all types of employees.
+### NormalEmployee.java: 
+Defines the NormalEmployee class, which calculates the monthly salary of a normal employee based on their gross wage, total working days, and deductions.
+### BonusEmployee.java:
+Defines the BonusEmployee class, which extends the Employee class and calculates the monthly salary of an employee with a bonus component.
+### PaySlip.java: 
+Contains the main method where instances of NormalEmployee and BonusEmployee are created, and their pay slips are generated.
+### README.md:
+This file.
+
+## Usage:
+
+To use the program, follow these steps:
+
+1. Compile all Java files using a Java compiler.
+2. Run the PaySlip class.
+3. The program will display the pay slip for each employee.
+
+## Functionality:
+
+### NormalEmployee: 
+Calculates the monthly salary of a normal employee based on their gross wage, total working days, loss of pay days, and various deductions such as EPF, health insurance, professional tax, and loan recovery.
+### BonusEmployee:
+Extends the NormalEmployee class and adds a bonus component to the monthly salary calculation.
+
