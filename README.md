@@ -164,3 +164,79 @@ Calculates the monthly salary of a normal employee based on their gross wage, to
 ### BonusEmployee:
 Extends the NormalEmployee class and adds a bonus component to the monthly salary calculation.
 
+# Assignment4:  Deck of Cards Java Program
+
+This Java program simulates a deck of cards and provides various functionalities such as displaying the deck, shuffling the deck, drawing a card, comparing two cards, checking if two cards are the same, finding a card by rank and suit, dealing a hand of cards, and quitting the program.
+
+## How to Run
+
+1. Ensure you have Java installed on your system.
+2. Compile the `assignment_4.java` file:
+
+3. Run the compiled Java program:
+4. Follow the on-screen instructions to interact with the program.
+
+## Menu Options
+
+1. **Display the deck of cards:** Displays all the cards currently in the deck.
+2. **Shuffle the deck of cards:** Shuffles the cards in the deck.
+3. **Draw a card from the deck:** Draws a card from the top of the deck.
+4. **Empty the deck:** Removes all cards from the deck.
+5. **Print a card from the deck:** Prints the card at a specified position in the deck.
+6. **Compare two cards:** Draws two random cards and compares their ranks.
+7. **Check if two cards are the same:** Draws two random cards and checks if they are the same.
+8. **Find card by rank and suit:** Finds a card in the deck based on user-provided rank and suit.
+9. **Deal a hand of cards:** Deals cards evenly among a specified number of players.
+10. **Quit:** Exits the program.
+
+
+
+## Classes:
+### assignment_4.java:
+This class contains the main method and acts as the entry point of the program. It interacts with the user and calls methods from the Deck class to perform various operations on the deck of cards.
+
+### Deck: 
+This class represents a deck of cards. It contains methods to create a deck, display the deck, shuffle the deck, draw a card, empty the deck, compare two cards, check if two cards are the same, find a card by rank and suit, deal a hand of cards, and sort the deck.
+
+### Card: 
+This class represents a single playing card. It stores information about the rank and suit of the card and provides methods to retrieve this information.
+
+## Methods:
+### Deck.createDeck():
+Creates a new deck of cards with all possible combinations of ranks and suits.
+
+### Deck.displayDeck(Vector<Card> deck): 
+Displays all the cards in the deck.
+
+### Deck.shuffleDeck(Vector<Card> deck): 
+Shuffles the cards in the deck.
+
+### Deck.drawCard(): 
+Draws a card from the top of the deck.
+
+### Deck.emptyDeck(): 
+Removes all cards from the deck.
+
+### Deck.compareCard():
+Draws two random cards and compares their ranks.
+
+### Deck.sameCard():
+Draws two random cards and checks if they are the same.
+
+### Deck.findCard():
+Finds a card in the deck based on the provided rank and suit.
+
+### Deck.dealCard(Vector<Card> deck):
+Deals cards evenly among a specified number of players.
+
+### Card(int rank, String suit): 
+Constructor for the Card class. Initializes the rank and suit of the card.
+
+### Card.getRank():
+Retrieves the rank of the card.
+
+### Card.getSuit():
+Retrieves the suit of the card.
+
+### Card.toString(): 
+Converts the card object to a string representation.
