@@ -241,9 +241,37 @@ Retrieves the suit of the card.
 ### Card.toString(): 
 Converts the card object to a string representation.
 
-# Assignment 7: Part 2 - Factorial Calculator
+# Assignment 7: 
 
-## Factorial Calculator
+## Part 1 - Rational Number Calculator
+
+This Java program performs various operations on rational numbers, including addition, subtraction, multiplication, division, comparison, conversion to float, and finding the absolute value.
+
+### File Structure
+
+- `Rational.java`: Defines the `Rational` class, which represents rational numbers and provides methods for performing operations on them.
+- `rationalNumber.java`: Contains the `main` method and the menu-driven interface for interacting with the `Rational` class.
+
+### Rational Class
+
+The `Rational` class provides the following methods:
+
+- `addition()`: Performs addition of two rational numbers.
+- `subtraction()`: Performs subtraction of two rational numbers.
+- `multiplication()`: Performs multiplication of two rational numbers.
+- `division()`: Performs division of two rational numbers.
+- `compare()`: Compares two rational numbers.
+- `convert()`: Converts a rational number to a floating-point number.
+- `absolute()`: Finds the absolute value of a rational number.
+- `reduceFraction()`: Reduces a fraction to its simplest form.
+- `gcd()`: Computes the greatest common divisor (GCD) of two numbers.
+
+### Usage
+
+To run the program, compile the `rationalNumber.java` file using the Java compiler and execute the `rationalNumber` class.
+
+
+## Part 2 - Factorial Calculator
 This repository contains a Java program that calculates the factorial of a number entered by the user. It demonstrates exception handling using a custom exception class.
 
 ### File Structure
@@ -253,5 +281,31 @@ This repository contains a Java program that calculates the factorial of a numbe
 To run the program, compile both Java files using `javac` command and execute the `Demo` class.
 
 Follow the on-screen prompts to input a number. Enter `exit` to quit the program.
+
+## Part 3 - NOMATCHEXCP
+
+This repository contains a Java program that demonstrates the use of a custom exception class (`NOMATCHEXCP`) to handle cases where user input does not match a predefined value.
+
+### Overview
+
+The program consists of two Java files:
+- `NOMATCHEXCP.java`: Defines the custom exception class `NOMATCHEXCP`, which is thrown when the user input does not match the expected value ('India').
+- `Test.java`: Contains the main class `Test`, which prompts the user to enter a string and throws the custom exception if the input does not match 'India'.
+
+### Usage
+
+To run the program:
+1. Compile both Java files using `javac` command:
+2. Execute the `Test` class:
+3. Follow the on-screen prompts to enter a string. If the input does not match 'India', the custom exception will be thrown with the appropriate error message.
+
+### Custom Exception
+
+The `NOMATCHEXCP` class extends the `Exception` class and provides a constructor to include the line number and the erroneous input string in the error message.
+
+### File Structure
+
+- `NOMATCHEXCP.java`: Defines the `NOMATCHEXCP` class.
+- `Test.java`: Contains the main class `Test`.
 
 
