@@ -240,3 +240,18 @@ Retrieves the suit of the card.
 
 ### Card.toString(): 
 Converts the card object to a string representation.
+
+# Assignment 7: Part 2 - Factorial Calculator
+
+## Factorial Calculator
+This repository contains a Java program that calculates the factorial of a number entered by the user. It demonstrates exception handling using a custom exception class.
+
+### File Structure
+- `FactorialException.java`: Defines a custom exception class `FactorialException` that is thrown when the input number is not between 0 and 15.
+- `Demo.java`: Contains the main class `Demo`, which allows the user to input a number and calculates its factorial, handling exceptions accordingly.
+### Usage
+To run the program, compile both Java files using `javac` command and execute the `Demo` class.
+
+Follow the on-screen prompts to input a number. Enter `exit` to quit the program.
+
+
